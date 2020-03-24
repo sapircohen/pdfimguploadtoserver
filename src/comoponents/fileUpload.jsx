@@ -46,8 +46,6 @@ export default class FileUpload extends React.Component{
         return(
             <div style={divStyle}>
                 <FilePond allowMultiple={false} onaddfile={this.AddPDF} labelIdlE='PDF UPLOAD'/>
-                <p>sdfjhdsfkhddsf</p>
-                <p>dfkjsdfkjh</p>
             </div>
         )
     }
